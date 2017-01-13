@@ -1,0 +1,17 @@
+@import "bootstrap";
+$pding:25px;
+$fnt-clr: orangered;
+$val:30%;
+body{
+    background-color:#FAEBD7;
+}
+.view{
+    padding:$pding;
+}
+.required{
+    color:$fnt-clr;
+}
+.align{
+    margin-left: $val;
+    margin-right: $val;
+}

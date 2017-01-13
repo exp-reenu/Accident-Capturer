@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Accident Details Overview</title>
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="jquery/jquery-ui.min.css">
+	<link rel="stylesheet" href="accidentcapturer.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="jquery/jquery-ui.min.js"></script>
+    <script src="accidentOverview.js"></script>
+</head>
+
+<body>
+	<div class="container align">
+		<h2>Accident Details Overview</h2><br />
+		<!--Form for entering data-->
+		<form class="form-horizontal form-group" action="#" method="get">
+			<div class="row col-sm-4">
+				<div>
+					<label id="referenceNumberId" class=" col-form-label"> Reference Number :</label>
+				</div>
+				<div>
+					<label id="accidentDateId" class=" col-form-label"> Accident Date :</label>
+				</div>
+				<div>
+					<label id="accidentTimeId" class=" col-form-label">  Accident Time :</label>
+				</div>
+				<div>
+					<label id="accidentTypeId" class=" col-form-label"> Accident Type :</label>
+				</div>
+				<div>
+					<label id="cityNameId" class=" col-form-label"> City :</label>
+				</div>
+				<div>
+					<label id="districtNameId" class=" col-form-label"> District :</label>
+				</div>
+				<div>
+					<label id="numberOfVehiclesId" class=" col-form-label"> Number of vehicles :</label>
+				</div>
+				<div>
+					<label id="numberOfCasualtiesId" class=" col-form-label"> Number of casualties :</label>
+				</div>
+				<div>
+					<label id="reportingOfficerNameId" class=" col-form-label"> Reporting officers name :</label>
+				</div>
+				<div>
+					<label id="accidentImageId" class=" col-form-label"> Accident Image:</label>
+				</div>
+				<div class="col-sm-6">
+					<br />
+					<input type="button" id="editButton" value="Edit" class="btn btn-primary">
+					<input type="submit" id="confirmButton" class=" btn btn-primary " value="Confirm">
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
